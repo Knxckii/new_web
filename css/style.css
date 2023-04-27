@@ -66,6 +66,6 @@ nav ul li:hover ul.dropdown {
   display: block;
 }
 
-nav ul li ul.dropdown li:hover {
+#data:hover {
   border-radius: 0px 0px 12px 12px;
 }
