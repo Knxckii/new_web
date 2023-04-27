@@ -27,12 +27,11 @@ nav {
 
 nav ul {
   list-style: none;
-  background: #4a4ce9;
   float: right;
 }
 
 nav ul li {
-  float: left;
+  display: inline-block;
   list-style: none;
   position: relative;
 }
@@ -46,22 +45,27 @@ nav ul li a {
   font-size: 20px;
 }
 
-ul li ul.dropdown li {
+nav ul li ul.dropdown li {
   display: block;
 }
 
-ul li ul.dropdown {
+nav ul li ul.dropdown {
   width: 100%;
   background: #4a4ce9;
   position: absolute;
   z-index: 999;
   display: none;
+  border-radius: 0px 0px 12px 12px;
 }
 
-ul li a:hover {
-  background: #726d6d;
+nav ul li a:hover {
+  background: #301774;
 }
 
-ul li:hover ul.dropdown {
+nav ul li:hover ul.dropdown {
   display: block;
+}
+
+nav ul li ul.dropdown li:hover {
+  border-radius: 0px 0px 12px 12px;
 }
