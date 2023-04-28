@@ -1,29 +1,39 @@
 <!DOCTOTYPE html>
-<html lang>
-<link rel="stylesheet" href="css/style.css"/>
+<html lang="en">
 <head>
   <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title> Location Info </title>
+  <link rel="stylesheet" href="css/style.css"/>
+  <script type="text/javascript" src="js/script.js" defer></script>
 </head>
 
 <body>
 
   <nav>
-  <ul>  
-    <li><a href="#">Home</a></li>
+    <a href="#" class="toggle-button">
+      <span class="bar"></span>
+      <span class="bar"></span>
+      <span class="bar"></span>
+    </a>
+    <div class="list-container">
+      <ul class="uls">
+        <li><a class="link" href="#">Home</a></li>
 
-    <li>
-      <a href="#">Account</a>
-      <ul class="dropdown">
-        <li><a href="#">Settings</a></li>
-        <li><a id="data" href="#">Data</a></li>
+        <li>
+          <a href="#">Account</a>
+          <ul class="dropdown">
+            <li><a class="link" href="#">Settings</a></li>
+            <li><a class="link" id="data" href="#">Data</a></li>
+          </ul>
+        </li>
+
+        <li><a class="link" href="#">Login</a></li>
+        <li><a class="link" href="#">Contact Us</a></li>
       </ul>
-    </li>
-
-    <li><a href="#">Login</a></li>
-  </ul>
-</nav>
+    </div>
+  </nav>
 
 </body>
 
